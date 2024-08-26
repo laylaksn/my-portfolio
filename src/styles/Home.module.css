@@ -38,8 +38,7 @@
   font-weight: 700;
   font-family: var(--font-mono);
 }
-
-/* Title styling */
+ 
 .title {
   font-size: 2.5rem; /* Adjust the size as needed */
   font-weight: 400; /* Bold for prominence */
@@ -48,7 +47,7 @@
 }
 
 .bio {
-  font-size: 1.2rem; /* Slightly larger than normal text for readability */
+  font-size: 1 rem; /* Slightly larger than normal text for readability */
   color: #666; /* Lighter color for contrast */
   max-width: 800px; /* Limit the width for better readability */
   margin: 0 auto; /* Center the bio text */
@@ -96,6 +95,7 @@
   position: relative;
   padding: 4rem 0;
   text-align: center;
+  flex-direction: column; /* Stack children vertically */ 
 }
 
 .logo {

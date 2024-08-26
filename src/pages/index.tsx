@@ -20,26 +20,26 @@ export default function Home() {
       <nav className={styles.navbar}>
         <div className={styles.navbarContainer}>
           <ul className={styles.navbarMenu}>
-            <li className={styles.navbarItem}><a href="#home" className={styles.navbarLink}>Home</a></li>
+            <li className={styles.navbarItem}><a href="/index.tsx" className={styles.navbarLink}>Home</a></li>
             <li className={styles.navbarItem}><a href="#portfolio" className={styles.navbarLink}>Portfolio</a></li>
-            <li className={styles.navbarItem}><a href="#cv" className={styles.navbarLink}>CV</a></li>
+            <li className={styles.navbarItem}><a href="/cv.pdf" className={styles.navbarLink}>CV</a></li>
             <li className={styles.navbarItem}>
               <a href="mailto:your-email@example.com" className={styles.navbarLink}>
                 <i className="fas fa-envelope"></i>
               </a>
             </li>
             <li className={styles.navbarItem}>
-              <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer" className={styles.navbarLink}>
+              <a href="https://github.com/laylaksn" target="_blank" rel="noopener noreferrer" className={styles.navbarLink}>
                 <i className="fab fa-github"></i>
               </a>
             </li>
             <li className={styles.navbarItem}>
-              <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer" className={styles.navbarLink}>
+              <a href="https://linkedin.com/in/laylaksn" target="_blank" rel="noopener noreferrer" className={styles.navbarLink}>
                 <i className="fab fa-linkedin"></i>
               </a>
             </li>
             <li className={styles.navbarItem}>
-              <a href="https://twitter.com/your-twitter" target="_blank" rel="noopener noreferrer" className={styles.navbarLink}>
+              <a href="https://twitter.com/layla_ksn" target="_blank" rel="noopener noreferrer" className={styles.navbarLink}>
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
@@ -54,7 +54,11 @@ export default function Home() {
           <div className={styles.center}>
             <h1 className={styles.title}>Layla Sadeghi Namaghi</h1>
             <p className={styles.bio}>
-              Welcome to my portfolio...
+            PhD in Computational Mathematics with a strong background in algorithm optimisation, advanced
+            computational techniques, and mathematical modelling using MATLAB and Python. Eager to apply my
+            programming and analytical expertise to a technical role where I can leverage these skills to drive innovation
+            and business growth. Enthusiatic about science communication and effective collaboration. Keen programmer
+            with additional experience in JavaScript, React, SQL
             </p>
           </div>
 
