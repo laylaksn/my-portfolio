@@ -20,7 +20,7 @@ export default function Home() {
       <nav className={styles.navbar}>
         <div className={styles.navbarContainer}>
           <ul className={styles.navbarMenu}>
-            <li className={styles.navbarItem}><a href="/index.tsx" className={styles.navbarLink}>Home</a></li>
+            <li className={styles.navbarItem}><a href="/index.js" className={styles.navbarLink}>Home</a></li>
             <li className={styles.navbarItem}><a href="#portfolio" className={styles.navbarLink}>Portfolio</a></li>
             <li className={styles.navbarItem}><a href="/cv.pdf" className={styles.navbarLink}>CV</a></li>
             <li className={styles.navbarItem}>
@@ -58,7 +58,7 @@ export default function Home() {
             computational techniques, and mathematical modelling using MATLAB and Python. Eager to apply my
             programming and analytical expertise to a technical role where I can leverage these skills to drive innovation
             and business growth. Enthusiatic about science communication and effective collaboration. Keen programmer
-            with additional experience in JavaScript, React, SQL
+            with additional experience in JavaScript, React, SQL.
             </p>
           </div>
 
