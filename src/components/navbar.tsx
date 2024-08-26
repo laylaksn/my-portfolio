@@ -15,7 +15,7 @@ export const Navbar = () => {
             <Link href="/projects" className={styles.navbarLink}>
               Projects
             </Link>
-          </li>
+          </li> 
           <li className={styles.navbarItem}>
             <a href="/cv.pdf" className={styles.navbarLink}>
               CV
