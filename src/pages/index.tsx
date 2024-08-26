@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import styles from "@/styles/Home.module.css";
 
-const inter = Inter({ subsets: ['latin'] }) // for choosing font
+const inter = Inter({ subsets: ["latin"] }); // for choosing font
 
 export default function Home() {
   return (
@@ -15,74 +15,44 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.description}>
-        </div>
+        <div className={styles.description}></div>
+        {/* Change `class` to `className` */}
+        <div className="container">
+          <div className={styles.center}>
+            <p>Layla Sadeghi Namaghi</p>
+          </div>
 
-        <div className={styles.center}>
-          <p> Layla Sadeghi Namaghi</p>
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div>
-
-        
+          <div className={styles.photoGrid}>
+            <div className={styles.photoTile}>
+              <Image src="/photos/3mt.jpg" alt="Photo 1" />
+            </div>
+            <div className={styles.photoTile}>
+              <Image src="/photos/bake.jpg" alt="Photo 2" />
+            </div>
+            <div className={styles.photoTile}>
+              <Image src="/photos/hannahfry.jpg" alt="Photo 3" />
+            </div>
+            <div className={styles.photoTile}>
+              <Image src="/photos/icms.jpg" alt="Photo 4" />
+            </div>
+            <div className={styles.photoTile}>
+              <Image src="/photos/outreach1.jpg" alt="Photo 5" />
+            </div>
+            <div className={styles.photoTile}>
+              <Image src="/photos/talk1.jpg" alt="Photo 6" />
+            </div>
+            <div className={styles.photoTile}>
+              <Image src="/photos/outreach2.jpg" alt="Photo 7" />
+            </div>
+            <div className={styles.photoTile}>
+              <Image src="/photos/outreachcrypto.jpg" alt="Photo 8" />
+            </div>
+            <div className={styles.photoTile}>
+              <Image src="/photos/photo9.jpg" alt="Photo 9" />
+            </div>
+          </div>
+        </div>  
       </main>
     </>
-  )
+  );
 }
