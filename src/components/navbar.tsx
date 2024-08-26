@@ -1,20 +1,20 @@
 import styles from "@/styles/Home.module.css";
+import Link from "next/link";
 
-export const Navbar=()=>{
-
-return (
+export const Navbar = () => {
+  return (
     <nav className={styles.navbar}>
       <div className={styles.navbarContainer}>
         <ul className={styles.navbarMenu}>
           <li className={styles.navbarItem}>
-            <a href="/" className={styles.navbarLink}>
+            <Link href="/" className={styles.navbarLink}>
               Home
-            </a>
+            </Link>
           </li>
           <li className={styles.navbarItem}>
-            <a href="/projects" className={styles.navbarLink}>
+            <Link href="/projects" className={styles.navbarLink}>
               Projects
-            </a>
+            </Link>
           </li>
           <li className={styles.navbarItem}>
             <a href="/cv.pdf" className={styles.navbarLink}>
@@ -61,6 +61,6 @@ return (
           </li>
         </ul>
       </div>
-    </nav>)
-
-}
+    </nav>
+  );
+};
