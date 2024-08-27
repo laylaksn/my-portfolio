@@ -24,17 +24,17 @@ const projects = [
   {
     title: 'Least-Squares PGD Mimetic SEM for first-order PDEs',
     description: 'Research from my PhD thesis in computational maths.',
-    link: 'https://github.com/laylaksn/Health-and-fitness-database/blob/main/README.md',
+    link: 'https://github.com/laylaksn/PhD-findings',
   },
   {
     title: 'Modelling Calcium Signalling in Fertilsation',
     description: 'Research from my MPhil in mathematical biology.',
-    link: 'https://github.com/laylaksn/Health-and-fitness-database/blob/main/README.md',
+    link: 'https://github.com/laylaksn/MPhil-Thesis',
   },
   {
     title: 'Maths tools',
     description: 'Website for some simple maths tools, using Python.',
-    link: 'https://github.com/laylaksn/Health-and-fitness-database/blob/main/README.md',
+    link: 'https://github.com/laylaksn/maths_tools',
   },
 ];
 
