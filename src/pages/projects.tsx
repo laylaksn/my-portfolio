@@ -2,6 +2,8 @@
 
 import React from 'react';
 import styles from '@/styles/Projects.module.css'; // You can create a CSS module file for styling
+import { Navbar } from '@/components/navbar'; 
+ 
 
 const projects = [
   {
@@ -23,8 +25,8 @@ const projects = [
 
 const Projects = () => {
   return (
+    <div> <Navbar/>
     <div className={styles.projectsContainer}>
-      <h1 className={styles.title}>My Projects</h1>
       <div className={styles.projectsList}>
         {projects.map((project, index) => (
           <div key={index} className={styles.projectCard}>
@@ -41,6 +43,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };
