@@ -31,14 +31,7 @@ export default function Home() {
           <div className={styles.center}>
             <h1 className={styles.title}>Layla Sadeghi Namaghi</h1>
             <p className={styles.bio}>
-              PhD in Computational Mathematics with a strong background in
-              algorithm optimisation, advanced computational techniques, and
-              mathematical modelling using MATLAB and Python. Eager to apply my
-              programming and analytical expertise to a technical role where I
-              can leverage these skills to drive innovation and business growth.
-              Enthusiatic about science communication and effective
-              collaboration. Keen programmer with additional experience in
-              JavaScript, React, SQL.
+            Welcome to my portfolio! I have a PhD in Computational Mathematics with a background in algorithm optimisation, computational techniques, and mathematical modelling using MATLAB and Python. I am always up for a challenge, especially if it involves coding and finding smart solutions to complex problems. Besides my main tools, I have dabbled in JavaScript, React, and SQL and use this website to showcase some of those projects.
             </p>
           </div>
 

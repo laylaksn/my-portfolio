@@ -44,6 +44,7 @@
   font-weight: 400; /* Bold for prominence */
   color: #333; /* Dark color for contrast */
   margin-bottom: 20px; /* Space between title and bio */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .bio {
@@ -51,6 +52,7 @@
   color: #666; /* Lighter color for contrast */
   max-width: 800px; /* Limit the width for better readability */
   margin: 0 auto; /* Center the bio text */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .grid {

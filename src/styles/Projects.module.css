@@ -7,13 +7,6 @@
     margin-top: 100px;
   }
   
-  .title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  
   .projectsList {
     display: flex;
     flex-direction: column;
@@ -35,12 +28,14 @@
   .projectTitle {
     font-size: 1.8rem;
     margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   .projectDescription {
     font-size: 1rem;
     margin-bottom: 15px;
     color: #666;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   .projectLink {
@@ -48,6 +43,7 @@
     color: #0070f3;
     font-weight: bold;
     transition: color 0.2s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   .projectLink:hover {
