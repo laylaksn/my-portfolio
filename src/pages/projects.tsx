@@ -7,19 +7,34 @@ import { Navbar } from '@/components/navbar';
 
 const projects = [
   {
-    title: 'Project One',
-    description: 'A brief description of Project One.',
-    link: 'https://example.com/project-one',
+    title: 'Maths yn Gymraeg',
+    description: 'This is a simple flashcard website I made to help me practice for teaching maths in Welsh.',
+    link: 'maths-yn-gymraeg.vercel.app/',
   },
   {
-    title: 'Project Two',
-    description: 'An overview of Project Two.',
-    link: 'https://example.com/project-two',
+    title: 'All I ate',
+    description: 'A recipe website to save all our favourite meals.',
+    link: 'https://all-i-ate.vercel.app/',
   },
   {
-    title: 'Project Three',
-    description: 'Details about Project Three.',
-    link: 'https://example.com/project-three',
+    title: 'Health and fitness database',
+    description: 'In another life I might have been a PT... Here is how I would organise my data.',
+    link: 'https://github.com/laylaksn/Health-and-fitness-database/blob/main/README.md',
+  },
+  {
+    title: 'Least-Squares PGD Mimetic SEM for first-order PDEs',
+    description: 'Research from my PhD thesis in computational maths.',
+    link: 'https://github.com/laylaksn/Health-and-fitness-database/blob/main/README.md',
+  },
+  {
+    title: 'Modelling Calcium Signalling in Fertilsation',
+    description: 'Research from my MPhil in mathematical biology.',
+    link: 'https://github.com/laylaksn/Health-and-fitness-database/blob/main/README.md',
+  },
+  {
+    title: 'Maths tools',
+    description: 'Website for some simple maths tools, using Python.',
+    link: 'https://github.com/laylaksn/Health-and-fitness-database/blob/main/README.md',
   },
 ];
 
