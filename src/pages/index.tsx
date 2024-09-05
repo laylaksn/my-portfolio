@@ -33,10 +33,8 @@ export default function Home() {
             <p className={styles.bio}>
             Welcome to my portfolio! I have a PhD in Computational Mathematics with a background in algorithm optimisation, computational techniques, and mathematical modelling using MATLAB and Python. I am always up for a challenge, especially if it involves coding and finding smart solutions to complex problems. Besides my main tools, I have dabbled in JavaScript, React, and SQL and use this website to showcase some of those projects.
             </p>
-          </div>
-
           < HomePhotos />
-  
+          </div>
         </div>
       </main>
     </>

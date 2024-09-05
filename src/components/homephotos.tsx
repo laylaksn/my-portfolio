@@ -72,7 +72,7 @@ export const HomePhotos = () => {
                 </div>
                 <div className={styles.photoTile}>
                 <Image
-                    src="/photos/outreach2.jpg"
+                    src="/photos/3mt1.jpg"
                     alt="Photo 9"
                     width={225}
                     height={225}
